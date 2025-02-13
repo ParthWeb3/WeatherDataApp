@@ -4,7 +4,7 @@ import os
 
 # Function to retrieve atmospheric conditions
 def get_atmospheric_conditions(location):
-    api_identifier = os.getenv("WEATHER_API_KEY", "3c1d901aba98438bacb44730251302")  # API key from environment variable
+    api_identifier = os.getenv("WEATHER_API_KEY", "2193934cd5ad3375a9c1cecb79a20960")  #   API key from environment variable
     endpoint_url = f"http://api.weatherapi.com/v1/current.json?key={api_identifier}&q={location}&aqi=no"
 
     try:
